@@ -1,6 +1,43 @@
 body{
     
-    background: linear-gradient(rgb(255, 153, 0),black);
-    background-repeat: no-repeat;
+    background-image:url(https://t4.ftcdn.net/jpg/02/44/35/67/360_F_244356708_9sarXrMLZEEMAI2KKt3on8x1mCgfQKrQ.jpg);
     background-size: cover;
+}
+h1{
+    text-align:center;
+    margin-top:100px;
+    font-size:75px;
+}
+h2{
+    text-align:center;
+    margin-top:-25px;
+    font-size:25px;
+}
+button{
+    background-color: rgb(255, 166, 0);
+    border-color:black;
+    font-size:50px;
+}
+html{
+    text-align:center;
+}
+css{
+    text-align:center;
+}
+table {
+      width: 100%;
+      border-collapse: collapse;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+th, td {
+      border: 1px solid #000000;
+      padding: 10px;
+      text-align: left;
+}
+th {
+      background-color: #000000;
+      color: white;
+}
+tr:nth-child(even) {
+      background-color: #f9f9f9;
 }
